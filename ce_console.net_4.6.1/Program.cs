@@ -10,9 +10,9 @@ namespace Test
         {
             string input = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/data/stair_configuration.json");
 
-            string transformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/data/landing_transformer.json"); ;
+            string landing_transformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/data/landing_transformer.json"); ;
 
-            string transformedString = new JsonTransformer().Transform(transformer, input);
+            string transformedString = new JsonTransformer().Transform(landing_transformer, input);
 
             Console.WriteLine(transformedString);
 
