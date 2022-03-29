@@ -1,76 +1,74 @@
 {
   "flight0": {
-    "landingWidth": "#valueof($.flights[0].landingWidth)",
-    "landingLength": "#valueof($.flights[0].landingLength)",
-    "landingWidthSubTopNosing": "#subtract(#valueof($.flights[0].landingWidth), 2.25)",
-    "landingArea": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
-    "parts": [
-      {
-        "topSheet": {
-          "material": "14GA Diamond Plate",
-          "sqInches": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
-          "sqFeet": "#divide(#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength)), 144)",
-          "quantity":  1
-        },
-        "frontHeader": {
-          "material": "C8x11.5 Channel",
-          "length": "#valueof($.flights[0].landingLength)",
-          "quantity": 1
-        },
-        "backHeader": {
-          "material": "C8x11.5 Channel",
-          "length": "#valueof($.flights[0].landingLength)",
-          "quantity": 1
-        },
-        "sideChannels": {
-          "material": "C8x11.5 Channel",
-          "length": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
-          "quantity": 2
-        },
-        "midSpanChannel": {
-          "material": "C6x8.2 Channel",
-          "length": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
-          "quantity": 1
-        },
-        "c8ShearTabs": {
-          "material": ".3125 Plate",
-          "sqInches": 25,
-          "quantity":  2
-        },
-        "c6ShearTabs": {
-          "material": ".25 Flat Bar",
-          "sqInches": 16,
-          "quantity": 2
-        },
-        "supportStuds": {
-          "material": "14GA Cold Formed",
-          "length": 12,
-          "quantity": "undefined"
-        },
-        "supportAngle": {
-          "material": "L2x2x.25",
-          "length": "undefined",
-          "quantity": "undefined"
-        },
-        "embedPlate": {
-          "material": ".5 Plate",
-          "sqInches": 100,
-          "quantity": 4,
-          "parts": [
-            {
-              "anchorStuds": {
-                "material": "undefined",
-                "quantity": 4
-              },
-              "angleBracket": {
-                "material": "L5x3x.3125",
-                "length": "undefined",
-                "quantity":  1
+    "landing": {
+      "parts": [
+        {
+          "topSheet": {
+            "material": 3,
+            "qtyInches": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
+            "quantity": 1
+          },
+          "frontHeader": {
+            "material": 4,
+            "qtyInches": "#valueof($.flights[0].landingLength)",
+            "quantity": 1
+          },
+          "backHeader": {
+            "material": 4,
+            "qtyInches": "#valueof($.flights[0].landingLength)",
+            "quantity": 1
+          },
+          "sideChannels": {
+            "material": 4,
+            "qtyInches": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+            "quantity": 2
+          },
+          "midSpanChannel": {
+            "material": 5,
+            "qtyInches": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+            "quantity": 1
+          },
+          "c8ShearTabs": {
+            "material": 1,
+            "qtyInches": 25,
+            "quantity": 2
+          },
+          "c6ShearTabs": {
+            "material": 0,
+            "qtyInches": 16,
+            "quantity": 2
+          },
+          "supportStuds": {
+            "material": 13,
+            "qtyInches": 12,
+            "quantity": "undefined"
+          },
+          "supportAngle": {
+            "material": 6,
+            "qtyInches": "undefined",
+            "quantity": "undefined"
+          },
+          "embedPlate": {
+            "material": 2,
+            "qtyInches": 100,
+            "quantity": 4,
+            "parts": [
+              {
+                "anchorStuds": {
+                  "material": 12,
+                  "qtyInches": "undefined",
+                  "quantity": 4
+                },
+                "angleBracket": {
+                  "material": 7,
+                  "qtyInches": "undefined",
+                  "quantity": 1
+                }
               }
-            }
-          ]
+            ]
+          }
         }
-      }
-    ]
+      ]
+    }
   }
 }
