@@ -1,0 +1,60 @@
+{
+  "materials": [
+    {
+      "id": 0,
+      "name": "Plate, .25"
+    },
+    {
+      "id": 1,
+      "name": "Plate, .3125"
+    },
+    {
+      "id": 2,
+      "name": "Plate, .5"
+    },
+    {
+      "id": 3,
+      "name": "Plate, 14 GA Checker"
+    },
+    {
+      "id": 4,
+      "name": "Channel, C8x11.5"
+    },
+    {
+      "id": 5,
+      "name": "Channel, C6x8.2"
+    },
+    {
+      "id": 6,
+      "name": "Angle, L2 x 2 x .25"
+    },
+    {
+      "id": 7,
+      "name": "Angle, L5 x 3 x .3125"
+    },
+    {
+      "id": 8,
+      "name": "Tube, 1.5 x 1.5 x .1875"
+    },
+    {
+      "id": 9,
+      "name": "Tube, .5 x .5 x 16GA"
+    },
+    {
+      "id": 10,
+      "name": "Pipe, 1.25 SCH 10"
+    },
+    {
+      "id": 11,
+      "name": "Pipe, 1.25 90deg Elbow"
+    },
+    {
+      "id": 12,
+      "name": "Anchor Studs"
+    },
+    {
+      "id": 13,
+      "name": "Support Studs"
+    }
+  ]
+}
