@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 using JUST;
 using System.IO;
 
@@ -16,19 +12,11 @@ namespace Test
 
             string transformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/data/landing_transformer.json"); ;
 
-
-            //JUSTContext context = new JUSTContext
-            //{
-            //    EvaluationMode = EvaluationMode.FallbackToDefault,
-
-            //};
-
             string transformedString = new JsonTransformer().Transform(transformer, input);
 
             Console.WriteLine(transformedString);
 
-            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/data/output.json", Newtonsoft.Json.JsonConvert.SerializeObject(transformedString));
-
+            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/output.json", transformedString);
         }
     }
 }
