@@ -1,1 +1,1 @@
-ce_console.net_4.6.1
+Transform stair tower configuration JSON using [JUST.net](https://github.com/WorkMaze/JUST.net)
