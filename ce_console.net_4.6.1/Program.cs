@@ -26,6 +26,9 @@ namespace Test
             string transformedString = new JsonTransformer().Transform(transformer, input);
 
             Console.WriteLine(transformedString);
+
+            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/data/output.json", Newtonsoft.Json.JsonConvert.SerializeObject(transformedString));
+
         }
     }
 }
