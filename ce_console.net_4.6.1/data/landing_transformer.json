@@ -1,7 +1,34 @@
 {
-  "result": {
-    "test0": 10,
-    "test1": "#valueof($.flights[0].landingWidth)",
-    "test2": "#add(#valueof($.flights[0].landingWidth),#valueof($.flights[0].landingWidth))"
+  "flight0": {
+    "landingWidth": "#valueof($.flights[0].landingWidth)",
+    "landingLength": "#valueof($.flights[0].landingLength)",
+    "landingWidthSubTopNosing": "#subtract(#valueof($.flights[0].landingWidth), 2.25)",
+    "landingArea": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
+    "parts": [
+      {
+        "topChkrdPlate": {
+          "material": "14GA Diamond Plate",
+          "sqInches": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
+          "sqFeet": "#divide(#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength)), 144)"
+        },
+        "frontHeader": {
+          "material": "C8x11.5 Channel",
+          "length": "#valueof($.flights[0].landingLength)"
+        },
+        "backHeader": {
+          "material": "C8x11.5 Channel",
+          "length": "#valueof($.flights[0].landingLength)"
+        },
+        "sideChannels": {
+          "material": "C8x11.5 Channel",
+          "length": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+          "quantity": "2"
+        },
+        "midSpanChannel": {
+          "material": "C6x8.2 Channel",
+          "length": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)"
+        }
+      }
+    ]
   }
 }
