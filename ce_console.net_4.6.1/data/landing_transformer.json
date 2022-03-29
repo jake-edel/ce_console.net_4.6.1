@@ -1,0 +1,7 @@
+{
+  "result": {
+    "test0": 10,
+    "test1": "#valueof($.flights[0].landingWidth)",
+    "test2": "#add(#valueof($.flights[0].landingWidth),#valueof($.flights[0].landingWidth))"
+  }
+}
