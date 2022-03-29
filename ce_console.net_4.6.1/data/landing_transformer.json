@@ -41,12 +41,12 @@
           "supportStuds": {
             "material": 13,
             "qtyInches": 12,
-            "quantity": "undefined"
+            "quantity": "varies"
           },
           "supportAngle": {
             "material": 6,
             "qtyInches": "undefined",
-            "quantity": "undefined"
+            "quantity": 1
           },
           "embedPlate": {
             "material": 2,
