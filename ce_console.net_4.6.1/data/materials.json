@@ -1,5 +1,4 @@
-{
-  "materials": [
+[
     {
       "id": 0,
       "name": "Plate, .25",
@@ -85,4 +84,3 @@
       "pricePerUnit": null
     }
   ]
-}
