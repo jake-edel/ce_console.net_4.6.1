@@ -1,74 +1,119 @@
 {
   "flight0": {
-    "landing": {
-      "parts": [
-        {
-          "topSheet": {
-            "material": 3,
-            "qtyInches": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
-            "quantity": 1
-          },
-          "frontHeader": {
-            "material": 4,
-            "qtyInches": "#valueof($.flights[0].landingLength)",
-            "quantity": 1
-          },
-          "backHeader": {
-            "material": 4,
-            "qtyInches": "#valueof($.flights[0].landingLength)",
-            "quantity": 1
-          },
-          "sideChannels": {
-            "material": 4,
-            "qtyInches": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
-            "quantity": 2
-          },
-          "midSpanChannel": {
-            "material": 5,
-            "qtyInches": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
-            "quantity": 1
-          },
-          "c8ShearTabs": {
-            "material": 1,
-            "qtyInches": 25,
-            "quantity": 2
-          },
-          "c6ShearTabs": {
-            "material": 0,
-            "qtyInches": 16,
-            "quantity": 2
-          },
-          "supportStuds": {
-            "material": 13,
-            "qtyInches": 12,
-            "quantity": "varies"
-          },
-          "supportAngle": {
-            "material": 6,
-            "qtyInches": "undefined",
-            "quantity": 1
-          },
-          "embedPlate": {
-            "material": 2,
-            "qtyInches": 100,
-            "quantity": 4,
-            "parts": [
-              {
-                "anchorStuds": {
-                  "material": 12,
-                  "qtyInches": "undefined",
-                  "quantity": 4
-                },
-                "angleBracket": {
-                  "material": 7,
-                  "qtyInches": "undefined",
-                  "quantity": 1
-                }
-              }
-            ]
-          }
-        }
-      ]
-    }
+    "landing": [
+      {
+        "materialId": 3,
+        "qtyUnits": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
+        "quantity": 1,
+        "locDesc": "topSheet"
+      },
+      {
+        "material": 4,
+        "qtyUnits": "#valueof($.flights[0].landingLength)",
+        "quantity": 1,
+        "locDesc": "frontHeader"
+      },
+      {
+        "material": 4,
+        "qtyUnits": "#valueof($.flights[0].landingLength)",
+        "quantity": 1,
+        "locDesc": "backHeader"
+
+      },
+      {
+        "material": 4,
+        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+        "quantity": 2,
+        "locDesc": "sideChannel"
+      },
+      {
+        "material": 5,
+        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+        "quantity": 1,
+        "locDesc": "midSpanChannel"
+      },
+      {
+        "material": 1,
+        "qtyUnits": 25,
+        "quantity": 2,
+        "locDesc": "c8ShearTab"
+      },
+      {
+        "material": 0,
+        "qtyUnits": 16,
+        "quantity": 2,
+        "locDesc": "c6ShearTab"
+      },
+      {
+        "material": 13,
+        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+        "quantity": "***varies*** ",
+        "locDesc": "supportStud"
+      },
+      {
+        "material": 6,
+        "qtyUnits": "#subtract(#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5), 4.5)",
+        "quantity": 2,
+        "locDesc": "supportAngle"
+      },
+      {
+        "material": 2,
+        "qtyUnits": 100,
+        "quantity": 4,
+        "locDesc": "embedPlate"
+      },
+      {
+        "material": 12,
+        "qtyUnits": 1,
+        "quantity": 4,
+        "locDesc": "anchorStuds"
+      },
+      {
+        "material": 7,
+        "qtyUnits": 8,
+        "quantity": 1,
+        "locDesc": "angleBracket"
+      }
+    ],
+    "stairs": [
+      {
+        "material": null,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": "leftStringer"
+      },
+      {
+        "material": null,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": "rightStringer"
+      },
+      {
+        "material": 3,
+        "qtyUnits": null,
+        "quantity": 1,
+        "locDesc": "topPan"
+      },
+      {
+        "material": 3,
+        "qtyUnits": null,
+        "quantity": "#subtract(#valueof($.flights[0].risers), 1)",
+        "locDesc": "midPan"
+      },
+      {
+        "material": 3,
+        "qtyUnits": null,
+        "quantity": 1,
+        "locDesc": "bottomPan"
+      }
+    ],
+    "railing": [
+      {
+        "material": null,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": null
+      }
+    ]
   }
 }
