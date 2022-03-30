@@ -1,0 +1,1174 @@
+{
+  "flights": [
+    {
+      "flightId": 0,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 42.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 1,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 75.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 75.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 75.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 70.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 2,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 42.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.22222222222222,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 3,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 53.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 53.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 53.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 48.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.22222222222222,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 4,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 42.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.40909090909091,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 10,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 5,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 53.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 53.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 53.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 48.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.40909090909091,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 10,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 6,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 42.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.31944444444444,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 7,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 86.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 86.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 86.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 81.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.328125,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 7,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 8,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 42.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.31944444444444,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    },
+    {
+      "flightId": 9,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": 86.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": 86.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": 86.25,
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": 81.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "0",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 9.328125,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": 0,
+          "quantity": 7,
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    }
+  ]
+}
