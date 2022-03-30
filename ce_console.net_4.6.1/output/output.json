@@ -1,1 +1,94 @@
-{"flight0":{"landing":{"parts":[{"topSheet":{"material":"14GA Diamond Plate","sqInches":4721.75,"quantity":1},"frontHeader":{"material":"C8x11.5 Channel","length":101,"quantity":1},"backHeader":{"material":"C8x11.5 Channel","length":101,"quantity":1},"sideChannels":{"material":"C8x11.5 Channel","length":42.25,"quantity":2},"midSpanChannel":{"material":"C6x8.2 Channel","length":42.25,"quantity":1},"c8ShearTabs":{"material":".3125 Plate","sqInches":25,"quantity":2},"c6ShearTabs":{"material":".25 Flat Bar","sqInches":16,"quantity":2},"supportStuds":{"material":"14GA Cold Formed","length":12,"quantity":"undefined"},"supportAngle":{"material":"L2x2x.25","length":"undefined","quantity":"undefined"},"embedPlate":{"material":".5 Plate","sqInches":100,"quantity":4,"parts":[{"anchorStuds":{"material":"undefined","quantity":4},"angleBracket":{"material":"L5x3x.3125","length":"undefined","quantity":1}}]}}]}}}
+{
+  "flight0": {
+    "landing": [
+      {
+        "materialId": 3,
+        "qtyUnits": 4721.75,
+        "quantity": 1,
+        "locDesc": "topSheet"
+      },
+      {
+        "material": 4,
+        "qtyUnits": 101,
+        "quantity": 1,
+        "locDesc": "frontHeader"
+      },
+      {
+        "material": 4,
+        "qtyUnits": 101,
+        "quantity": 1,
+        "locDesc": "backHeader"
+      },
+      {
+        "material": 4,
+        "qtyUnits": 42.25,
+        "quantity": 2,
+        "locDesc": "sideChannel"
+      },
+      {
+        "material": 5,
+        "qtyUnits": 42.25,
+        "quantity": 1,
+        "locDesc": "midSpanChannel"
+      },
+      {
+        "material": 1,
+        "qtyUnits": 25,
+        "quantity": 2,
+        "locDesc": "c8ShearTab"
+      },
+      {
+        "material": 0,
+        "qtyUnits": 16,
+        "quantity": 2,
+        "locDesc": "c6ShearTab"
+      },
+      {
+        "material": 13,
+        "qtyUnits": 42.25,
+        "quantity": "***varies*** ",
+        "locDesc": "supportStud"
+      },
+      {
+        "material": 6,
+        "qtyUnits": 37.75,
+        "quantity": 2,
+        "locDesc": "supportAngle"
+      },
+      {
+        "material": 2,
+        "qtyUnits": 100,
+        "quantity": 4,
+        "locDesc": "embedPlate"
+      },
+      {
+        "material": 12,
+        "qtyUnits": 1,
+        "quantity": 4,
+        "locDesc": "anchorStuds"
+      },
+      {
+        "material": 7,
+        "qtyUnits": 8,
+        "quantity": 1,
+        "locDesc": "angleBracket"
+      }
+    ],
+    "stairs": [
+      {
+        "material": null,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": null
+      }
+    ],
+    "railing": [
+      {
+        "material": null,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": null
+      }
+    ]
+  }
+}
