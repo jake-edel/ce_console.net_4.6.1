@@ -1,0 +1,122 @@
+{
+  "flights": {
+    "#loop($.flights)": {
+      "flightId": "#currentvalueatpath($.flightId)",
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": "#multiply(#subtract(#currentvalueatpath($.landingWidth), 2.25), #currentvalueatpath($.flights[0].landingLength))",
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "material": 4,
+          "qtyUnits": "#currentvalueatpath($.landingLength)",
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "material": 4,
+          "qtyUnits": "#currentvalueatpath($.landingLength)",
+          "quantity": 1,
+          "locDesc": "backHeader"
+
+        },
+        {
+          "material": 4,
+          "qtyUnits": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "material": 5,
+          "qtyUnits": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "material": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "material": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "material": 13,
+          "qtyUnits": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
+          "quantity": "***varies*** ",
+          "locDesc": "supportStud"
+        },
+        {
+          "material": 6,
+          "qtyUnits": "#subtract(#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5), 4.5)",
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "material": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "material": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "material": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "material": "#ifcondition(#currentvalueatpath($.stringerThickness),0.25,0,1)",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "material": "#ifcondition(#currentvalueatpath($.stringerThickness),0.25,0,1)",
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "material": 3,
+          "qtyUnits": "#add(#currentvalueatpath($.riserHeight), 2.5)",
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": "#multiply(#add(#currentvalueatpath($.riserHeight), 12), #currentvalueatpath($.flights[0].stairWidth))",
+          "quantity": "#subtract(#currentvalueatpath($.risers), 1)",
+          "locDesc": "midPan"
+        },
+        {
+          "material": 3,
+          "qtyUnits": null,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "material": null,
+          "qtyUnits": null,
+          "quantity": null,
+          "locDesc": null
+        }
+      ]
+    }
+  }
+}
