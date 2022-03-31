@@ -25,13 +25,13 @@ namespace CostEstimator
             File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/config+material_output.json", transformedConfig);
 
 
-            string towerTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/tower_transformer.json");
-            string transformedTower = new JsonTransformer(context).Transform(towerTransformer, config);
-            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json", transformedTower);
+            //string towerTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/tower_transformer.json");
+            //string transformedTower = new JsonTransformer(context).Transform(towerTransformer, config);
+            //File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json", transformedTower);
 
 
             string flightTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/flight_transformer.json"); ;
-            string transformedFlight = new JsonTransformer(context).Transform(flightTransformer, config);
+            string transformedFlight = new JsonTransformer(context).Transform(flightTransformer, transformedConfig);
             File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/flight_output.json", transformedFlight);
         }
     }
