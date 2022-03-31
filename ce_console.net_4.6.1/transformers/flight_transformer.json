@@ -109,10 +109,64 @@
     ],
     "railing": [
       {
-        "material": null,
+        "material": 8,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "bottomPost"
+      },
+      {
+        "material": 8,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "topPost"
+      },
+      {
+        "material": 8,
         "qtyUnits": null,
         "quantity": null,
-        "locDesc": null
+        "locDesc": "intermediatePost"I
+      },
+      {
+        "material": 8,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "topRail"
+      },
+      {
+        "material": 8,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": "bottomRail"
+      },
+      {
+        "material": 9,
+        "qtyUnits": null,
+        "quantity": null,
+        "locDesc": "picket"
+      },
+      {
+        "material": 10,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "handrailPipe"
+      },
+      {
+        "material": 10,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "grabrailPipe"
+      },
+      {
+        "material": 11,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "elbow"
+      },
+      {
+        "material": 1,
+        "qtyUnits": 1,
+        "quantity": null,
+        "locDesc": "bracket"
       }
     ]
   }
