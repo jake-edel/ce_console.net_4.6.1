@@ -85,6 +85,7 @@
       "pricePerUnit": null
     }
   ],
+  "nosingOffset": 2.25,
   "id": 190,
   "assemblyId": 0,
   "stairName": "26A-S3-F1-10",
