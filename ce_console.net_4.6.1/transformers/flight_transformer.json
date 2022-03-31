@@ -3,7 +3,7 @@
     "landing": [
       {
         "materialId": 3,
-        "qtyUnits": "#multiply(#subtract(#valueof($.flights[0].landingWidth), 2.25), #valueof($.flights[0].landingLength))",
+        "qtyUnits": "#multiply(#subtract(#valueof($.flights[0].landingWidth),  #valueof($.nosingOffset)), #valueof($.flights[0].landingLength))",
         "quantity": 1,
         "locDesc": "topSheet"
       },
@@ -22,13 +22,14 @@
       },
       {
         "material": 4,
-        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
         "quantity": 2,
         "locDesc": "sideChannel"
       },
       {
+        //"test": "#valueof($.nosingOffset)",
         "material": 5,
-        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
         "quantity": 1,
         "locDesc": "midSpanChannel"
       },
@@ -46,13 +47,13 @@
       },
       {
         "material": 13,
-        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5)",
+        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
         "quantity": "***varies*** ",
         "locDesc": "supportStud"
       },
       {
         "material": 6,
-        "qtyUnits": "#subtract(#subtract(#subtract(#valueof($.flights[0].landingWidth), 2.25), 4.5), 4.5)",
+        "qtyUnits": "#subtract(#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5), 4.5)",
         "quantity": 2,
         "locDesc": "supportAngle"
       },
@@ -110,26 +111,26 @@
     "railing": [
       {
         "material": 8,
-        "qtyUnits": 1,
-        "quantity": null,
+        "qtyUnits": null,
+        "quantity": 1,
         "locDesc": "bottomPost"
       },
       {
         "material": 8,
-        "qtyUnits": 1,
-        "quantity": null,
+        "qtyUnits": null,
+        "quantity": 1,
         "locDesc": "topPost"
       },
       {
         "material": 8,
         "qtyUnits": null,
         "quantity": null,
-        "locDesc": "intermediatePost"I
+        "locDesc": "intermediatePost"
       },
       {
         "material": 8,
-        "qtyUnits": 1,
-        "quantity": null,
+        "qtyUnits": null,
+        "quantity": 1,
         "locDesc": "topRail"
       },
       {
@@ -146,20 +147,20 @@
       },
       {
         "material": 10,
-        "qtyUnits": 1,
-        "quantity": null,
+        "qtyUnits": null,
+        "quantity": 1,
         "locDesc": "handrailPipe"
       },
       {
         "material": 10,
-        "qtyUnits": 1,
-        "quantity": null,
+        "qtyUnits": null,
+        "quantity": 1,
         "locDesc": "grabrailPipe"
       },
       {
         "material": 11,
         "qtyUnits": 1,
-        "quantity": null,
+        "quantity": 4,
         "locDesc": "elbow"
       },
       {
