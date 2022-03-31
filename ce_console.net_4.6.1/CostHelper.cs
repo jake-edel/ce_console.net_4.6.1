@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CostHelper
+namespace JUST.NET.Test
 {
     public class StringerSolver
     {
-        public static float test()
+        public static float findHypotenuse()
         {
             Console.WriteLine("test");
             Console.ReadLine();

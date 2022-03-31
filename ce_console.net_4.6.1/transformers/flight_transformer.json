@@ -78,7 +78,7 @@
     "stairs": [
       {
         "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,0,1)",
-        //"qtyUnits": "#customfunction(CostHelper, CostHelper.StringerSolver.Test)",
+        "qtyUnits": null,//"#customfunction(JUST.Test, JUST.Test.CostHelper.StringerSolver)",
         "quantity": 1,
         "locDesc": "leftStringer"
       },
