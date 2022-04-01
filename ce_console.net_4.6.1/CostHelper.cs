@@ -8,7 +8,7 @@ namespace JUST.NET.Test
 {
     public class StringerSolver
     {
-        public static float findHypotenuse()
+        public static float FindHypotenuse()
         {
             Console.WriteLine("test");
             Console.ReadLine();
