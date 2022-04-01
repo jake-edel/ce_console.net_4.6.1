@@ -1,5 +1,14 @@
 {
   "#": [ "#copy($)" ],
+  "flightConsts": {
+    "#loop($.flights)": {
+      "flightId": "#currentvalueatpath($.flightId)",
+      "isDogLeg": "#currentvalueatpath($.isDogLeg)",
+      "isDdl": "#currentvalueatpath($.isDdl)",
+      "isTopStair": "#currentvalueatpath($.isTopStair)",
+      "midPanCount": "#subtract(#currentvalueatpath($.risers), 1)"
+    }
+  },
   "materials": [
     {
       "id": 0,
