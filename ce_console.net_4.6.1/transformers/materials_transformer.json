@@ -3,10 +3,15 @@
   "flightConsts": {
     "#loop($.flights)": {
       "flightId": "#currentvalueatpath($.flightId)",
-      "isDogLeg": "#currentvalueatpath($.isDogLeg)",
-      "isDdl": "#currentvalueatpath($.isDdl)",
-      "isTopStair": "#currentvalueatpath($.isTopStair)",
-      "midPanCount": "#subtract(#currentvalueatpath($.risers), 1)"
+      //"landingLength": "#currentvalueatpath($.landingLength)",
+      //"isDogLeg": "#currentvalueatpath($.isDogLeg)",
+      //"isDdl": "#currentvalueatpath($.isDdl)",
+      //"isTopStair": "#currentvalueatpath($.isTopStair)",
+      "midPanCount": "#subtract(#currentvalueatpath($.risers), 1)",
+      "supportChannelLength": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
+      "treadWidth": 11,
+      "postHeight": null,
+
     }
   },
   "materials": [
