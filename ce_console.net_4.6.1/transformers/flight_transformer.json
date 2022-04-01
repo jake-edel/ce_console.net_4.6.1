@@ -77,13 +77,13 @@
     ],
     "stairs": [
       {
-        "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,0,1)",
-        "qtyUnits": null,//"#customfunction(JUST.Test, JUST.Test.CostHelper.StringerSolver)",
+        "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
+        "qtyUnits": null,//"#customfunction(JUST.Test, JUST.Test.CostHelper.StringerSolver.FindHypotenuse)",
         "quantity": 1,
         "locDesc": "leftStringer"
       },
       {
-        "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,0,1)",
+        "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "rightStringer"
@@ -97,7 +97,7 @@
       {
         "material": 3,
         "qtyUnits": "#multiply(#add(#valueof($.flights[0].riserHeight), 12), #valueof($.flights[0].stairWidth))",
-        "quantity": "#subtract(#valueof($.flights[0].risers), 1)",
+        "quantity": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].midPanCount)",
         "locDesc": "midPan"
       },
       {
