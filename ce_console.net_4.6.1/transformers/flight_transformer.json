@@ -27,7 +27,6 @@
         "locDesc": "sideChannel"
       },
       {
-        //"test": "#valueof($.nosingOffset)",
         "material": 5,
         "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
         "quantity": 1,
