@@ -76,13 +76,13 @@
     ],
     "stairs": [
       {
-        "material": "0",
+        "material": 0,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "leftStringer"
       },
       {
-        "material": "0",
+        "material": 0,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "rightStringer"

@@ -1,4 +1,76 @@
 {
+  "flightConsts": [
+    {
+      "flightId": 0,
+      "isDogLeg": false,
+      "isDdl": false,
+      "isTopStair": false,
+      "midPanCount": 8
+    },
+    {
+      "flightId": 1,
+      "isDogLeg": false,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 8
+    },
+    {
+      "flightId": 2,
+      "isDogLeg": false,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 8
+    },
+    {
+      "flightId": 3,
+      "isDogLeg": true,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 8
+    },
+    {
+      "flightId": 4,
+      "isDogLeg": false,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 10
+    },
+    {
+      "flightId": 5,
+      "isDogLeg": false,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 10
+    },
+    {
+      "flightId": 6,
+      "isDogLeg": true,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 8
+    },
+    {
+      "flightId": 7,
+      "isDogLeg": false,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 7
+    },
+    {
+      "flightId": 8,
+      "isDogLeg": false,
+      "isDdl": false,
+      "isTopStair": false,
+      "midPanCount": 8
+    },
+    {
+      "flightId": 9,
+      "isDogLeg": false,
+      "isDdl": true,
+      "isTopStair": false,
+      "midPanCount": 7
+    }
+  ],
   "materials": [
     {
       "id": 0,
