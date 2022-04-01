@@ -8,68 +8,68 @@
         "locDesc": "topSheet"
       },
       {
-        "material": 4,
+        "materialId": 4,
         "qtyUnits": "#valueof($.flights[0].landingLength)",
         "quantity": 1,
         "locDesc": "frontHeader"
       },
       {
-        "material": 4,
+        "materialId": 4,
         "qtyUnits": "#valueof($.flights[0].landingLength)",
         "quantity": 1,
         "locDesc": "backHeader"
 
       },
       {
-        "material": 4,
+        "materialId": 4,
         "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
         "quantity": 2,
         "locDesc": "sideChannel"
       },
       {
-        "material": 5,
-        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
+        "materialId": 5,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].supportChannelLength)",
         "quantity": 1,
         "locDesc": "midSpanChannel"
       },
       {
-        "material": 1,
+        "materialId": 1,
         "qtyUnits": 25,
         "quantity": 2,
         "locDesc": "c8ShearTab"
       },
       {
-        "material": 0,
+        "materialId": 0,
         "qtyUnits": 16,
         "quantity": 2,
         "locDesc": "c6ShearTab"
       },
       {
-        "material": 13,
+        "materialId": 13,
         "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
-        "quantity": "***varies*** ",
+        "quantity": null,
         "locDesc": "supportStud"
       },
       {
-        "material": 6,
+        "materialId": 6,
         "qtyUnits": "#subtract(#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5), 4.5)",
         "quantity": 2,
         "locDesc": "supportAngle"
       },
       {
-        "material": 2,
+        "materialId": 2,
         "qtyUnits": 100,
         "quantity": 4,
         "locDesc": "embedPlate"
       },
       {
-        "material": 12,
+        "materialId": 12,
         "qtyUnits": 1,
         "quantity": 4,
         "locDesc": "anchorStuds"
       },
       {
-        "material": 7,
+        "materialId": 7,
         "qtyUnits": 8,
         "quantity": 1,
         "locDesc": "angleBracket"
@@ -77,31 +77,31 @@
     ],
     "stairs": [
       {
-        "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
+        "materialId": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
         "qtyUnits": null,//"#customfunction(JUST.Test, JUST.Test.CostHelper.StringerSolver.FindHypotenuse)",
         "quantity": 1,
         "locDesc": "leftStringer"
       },
       {
-        "material": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
+        "materialId": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "rightStringer"
       },
       {
-        "material": 3,
+        "materialId": 3,
         "qtyUnits": "#add(#valueof($.flights[0].riserHeight), 2.5)",
         "quantity": 1,
         "locDesc": "topPan"
       },
       {
-        "material": 3,
+        "materialId": 3,
         "qtyUnits": "#multiply(#add(#valueof($.flights[0].riserHeight), 12), #valueof($.flights[0].stairWidth))",
         "quantity": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].midPanCount)",
         "locDesc": "midPan"
       },
       {
-        "material": 3,
+        "materialId": 3,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "bottomPan"
@@ -109,61 +109,61 @@
     ],
     "railing": [
       {
-        "material": 8,
+        "materialId": 8,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "bottomPost"
       },
       {
-        "material": 8,
+        "materialId": 8,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "topPost"
       },
       {
-        "material": 8,
+        "materialId": 8,
         "qtyUnits": null,
         "quantity": null,
         "locDesc": "intermediatePost"
       },
       {
-        "material": 8,
+        "materialId": 8,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "topRail"
       },
       {
-        "material": 8,
+        "materialId": 8,
         "qtyUnits": null,
         "quantity": null,
         "locDesc": "bottomRail"
       },
       {
-        "material": 9,
+        "materialId": 9,
         "qtyUnits": null,
         "quantity": null,
         "locDesc": "picket"
       },
       {
-        "material": 10,
+        "materialId": 10,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "handrailPipe"
       },
       {
-        "material": 10,
+        "materialId": 10,
         "qtyUnits": null,
         "quantity": 1,
         "locDesc": "grabrailPipe"
       },
       {
-        "material": 11,
+        "materialId": 11,
         "qtyUnits": 1,
         "quantity": 4,
         "locDesc": "elbow"
       },
       {
-        "material": 1,
+        "materialId": 1,
         "qtyUnits": 1,
         "quantity": null,
         "locDesc": "bracket"
