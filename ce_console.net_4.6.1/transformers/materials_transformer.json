@@ -6,19 +6,26 @@
       "landingLength": "#currentvalueatpath($.landingLength)",
       "landingArea": "#multiply(#subtract(#currentvalueatpath($.landingWidth),  2.25), #currentvalueatpath($.landingLength))",
       "supportChannelLength": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
-      "supportStudQuantity": null,
+      "supportStudQuantity": "(landingWidth - 7.25) / 18, round up",
       "midPanCount": "#subtract(#currentvalueatpath($.risers), 1)",
-      "topPanArea": null,
-      "midpanArea": null,
-      "botPanArea": null,
+      "topPanArea": 10.7 * stairWidth,
+      "midpanArea": 19.25 x stairWidth,
+      "botPanArea": 6.25 x stairWidth,
       "treadWidth": 11,
       "stringerArea": "#CostMethods.StringerSolver::StringerArea(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), 11)",
-      "postHeight": null,
-      "picketLength": null,
-      "dogLegPanArea": null,
-      "ddlPanArea": null,
-      "dogLegStringerArea": null,
-      "ddlStringerArea": null
+      "bottomRailQuantity": intPostQuantity + 1,
+      //"topRailLength":  "#CostMethods.StringerSolver::FindHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength))",
+      "postHeight": 50,
+      "intPostHeight": 49.25,
+      "intPostQuantity": run / 48", rounded up,
+      "picketLength": 35,
+      "picketQuantity": run / 4",
+      "dogLegPanArea": dogLegLength x stairWidth,
+      "ddlPanArea": (botPan + 11) x stairWidth,
+      "ddlBotPan": 17.25 x stairWidth,
+      "ddlExtBotPanArea":  ddlExtension x stairWidth
+      "dogLegStringerArea": dogLegLength x stringerWidth,
+      "ddlStringerArea": "***ADD 1 RISE and RUN***"
     }
   },
   "materials": [
@@ -54,8 +61,14 @@
     },
     {
       "id": 5,
+      //"pricingCategory": {
+      //  "id": 5,
+      //  "desc": "bar + channel",
+      //  "priceType":  "pricePerPound"
+      //}
       "name": "Channel, C6x8.2",
       "unitOfMeasurement": null,
+      "pricingUnit": "lb"
       "pricePerUnit": null
     },
     {
