@@ -4,16 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JUST.NET.Test
+namespace CostMethods
 {
     public class StringerSolver
     {
-        public static float FindHypotenuse()
+        public static double StringerArea(int rise, int run, int stringerWidth)
         {
-            Console.WriteLine("test");
-            Console.ReadLine();
+            double length = FindHypotenuse(rise, run);
+            double value = length * stringerWidth;
+            return Math.Truncate(100 * value) / 100;
 
-            return 12.34F;
+        }
+        public static double FindHypotenuse(int rise, int run)
+        {
+            double value = Math.Sqrt(Math.Pow(rise, 2) + Math.Pow(run, 2));
+            return Math.Truncate(100 * value) / 100;
         }
     }
 }
