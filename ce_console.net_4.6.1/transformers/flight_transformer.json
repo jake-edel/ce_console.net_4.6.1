@@ -128,7 +128,7 @@
       },
       {
         "materialId": 8,
-        "qtyUnits": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].topRailLength)",
         "quantity": 1,
         "locDesc": "topRail"
       },
@@ -146,13 +146,13 @@
       },
       {
         "materialId": 10,
-        "qtyUnits": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].topRailLength)",
         "quantity": 1,
         "locDesc": "handrailPipe"
       },
       {
         "materialId": 10,
-        "qtyUnits": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].topRailLength)",
         "quantity": 1,
         "locDesc": "grabrailPipe"
       },
