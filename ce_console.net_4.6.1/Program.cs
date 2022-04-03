@@ -1,17 +1,13 @@
 ﻿using System;
 using JUST;
 using System.IO;
-using JUST.NET.Test;
-
 
 namespace CostEstimator
 {
-
     public class Program
     {
         public static void Main(string[] args)
         {
-
             JUSTContext context = new JUSTContext
             {
                 EvaluationMode = EvaluationMode.Strict,
