@@ -3,7 +3,7 @@
     "landing": [
       {
         "materialId": 3,
-        "qtyUnits": "#multiply(#subtract(#valueof($.flights[0].landingWidth),  #valueof($.nosingOffset)), #valueof($.flights[0].landingLength))",
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].landingArea)",
         "quantity": 1,
         "locDesc": "topSheet"
       },
@@ -22,7 +22,7 @@
       },
       {
         "materialId": 4,
-        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].supportChannelLength)",
         "quantity": 2,
         "locDesc": "sideChannel"
       },
@@ -46,8 +46,8 @@
       },
       {
         "materialId": 13,
-        "qtyUnits": "#subtract(#subtract(#valueof($.flights[0].landingWidth), #valueof($.nosingOffset)), 4.5)",
-        "quantity": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].supportChannelLength)",
+        "quantity": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].supportStudQuantity)",
         "locDesc": "supportStud"
       },
       {
@@ -78,13 +78,13 @@
     "stairs": [
       {
         "materialId": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
-        "qtyUnits": null,//"#customfunction(JUST.Test, JUST.Test.CostHelper.StringerSolver.FindHypotenuse)",
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].stringerArea)",
         "quantity": 1,
         "locDesc": "leftStringer"
       },
       {
         "materialId": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
-        "qtyUnits": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].stringerArea)",
         "quantity": 1,
         "locDesc": "rightStringer"
       },
