@@ -78,31 +78,31 @@
     "stairs": [
       {
         "materialId": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
-        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].stringerArea)",
+        "qtyUnits": "#add(#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].stringerArea),#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegStringerArea)), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtStringerArea))",
         "quantity": 1,
         "locDesc": "leftStringer"
       },
       {
         "materialId": "#ifcondition(#valueof($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
-        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].stringerArea)",
+        "qtyUnits": "#add(#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].stringerArea),#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegStringerArea)), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtStringerArea))",
         "quantity": 1,
         "locDesc": "rightStringer"
       },
       {
         "materialId": 3,
-        "qtyUnits": "#add(#valueof($.flights[0].riserHeight), 2.5)",
+        "qtyUnits": "#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].topPanArea), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegTopPanArea))",
         "quantity": 1,
         "locDesc": "topPan"
       },
       {
         "materialId": 3,
-        "qtyUnits": "#multiply(#add(#valueof($.flights[0].riserHeight), 12), #valueof($.flights[0].stairWidth))",
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].midPanArea)",
         "quantity": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].midPanCount)",
         "locDesc": "midPan"
       },
       {
         "materialId": 3,
-        "qtyUnits": null,
+        "qtyUnits": "#add(#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].botPanArea), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlBotPanArea)), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtBotPanArea))",
         "quantity": 1,
         "locDesc": "bottomPan"
       }
@@ -110,20 +110,20 @@
     "railing": [
       {
         "materialId": 8,
-        "qtyUnits": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].postHeight)",
         "quantity": 1,
         "locDesc": "bottomPost"
       },
       {
         "materialId": 8,
-        "qtyUnits": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].postHeight)",
         "quantity": 1,
         "locDesc": "topPost"
       },
       {
         "materialId": 8,
-        "qtyUnits": null,
-        "quantity": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].intPostHeight)",
+        "quantity": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].intPostQuantity)",
         "locDesc": "intermediatePost"
       },
       {
@@ -134,8 +134,8 @@
       },
       {
         "materialId": 8,
-        "qtyUnits": null,
-        "quantity": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].bottomRailLength)",
+        "quantity": 1,
         "locDesc": "bottomRail"
       },
       {
