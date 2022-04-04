@@ -10,12 +10,12 @@ namespace CostMethods
     {
         public static double StringerArea(int totalRise, int totalRun, int stringerWidth, bool isDdl, float rise, float run)
         {
-            double length = FindHypotenuse(totalRise, totalRun, isDdl, rise, run);
+            double length = FindDdlHypotenuse(totalRise, totalRun, isDdl, rise, run);
             double value = length * stringerWidth;
             return Math.Truncate(100 * value) / 100;
 
         }
-        public static double FindHypotenuse(float totalRise, float totalRun, bool isDdl, float rise, float run)
+        public static double FindDdlHypotenuse(float totalRise, float totalRun, bool isDdl, float rise, float run)
         {
             if (isDdl)
             {
@@ -23,6 +23,11 @@ namespace CostMethods
                 totalRun += run;
             }
             double value = Math.Sqrt(Math.Pow(totalRise, 2) + Math.Pow(totalRun, 2));
+            return Math.Truncate(100 * value) / 100;
+        }
+        public static double FindHypotenuse(float rise, float run)
+        {
+            double value = Math.Sqrt(Math.Pow(rise, 2) + Math.Pow(run, 2));
             return Math.Truncate(100 * value) / 100;
         }
 
@@ -37,6 +42,12 @@ namespace CostMethods
             int value = run / 4;
 
             return value;
+        }
+
+        public static int SupportStudQuantity(float landingWidth)
+        {
+            double value = (landingWidth - 7.25) / 18;
+            return (int)Math.Ceiling(value);
         }
     }
 }
