@@ -25,9 +25,9 @@ namespace CostEstimator
 
 
             // Iterate through flights and transform full tower
-            //string towerTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/tower_transformer.json");
-            //string transformedTower = new JsonTransformer(context).Transform(towerTransformer, config);
-            //File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json", transformedTower);
+            string towerTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/tower_transformer.json");
+            string transformedTower = new JsonTransformer(context).Transform(towerTransformer, transformedConfig);
+            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json", transformedTower);
 
             // Transform config/material JSON into data for a single flight
             string flightTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/flight_transformer.json"); ;
