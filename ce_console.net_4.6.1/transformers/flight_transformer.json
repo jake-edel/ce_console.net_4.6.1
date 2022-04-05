@@ -128,9 +128,21 @@
       },
       {
         "materialId": 8,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].intPostHeight)",
+        "quantity": "#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegIntPostQuantity), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtIntPostQuantity))",
+        "locDesc": "dogLegIntPost"
+      },
+      {
+        "materialId": 8,
         "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].topRailLength)",
         "quantity": 1,
         "locDesc": "topRail"
+      },
+      {
+        "materialId": 8,
+        "qtyUnits": "#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegLength),#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtLength))",
+        "quantity": "#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegTopRailQuantity), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtTopRailQuantity))",
+        "locDesc": "dogLegTopRail"
       },
       {
         "materialId": 8,
@@ -139,9 +151,15 @@
         "locDesc": "bottomRail"
       },
       {
+        "materialId": 8,
+        "qtyUnits": "#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegBotRailLength),#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtBotRailLength))",
+        "quantity": "#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegBotRailQuantity), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtBotRailQuantity))",
+        "locDesc": "dogLegBotRail"
+      },
+      {
         "materialId": 9,
-        "qtyUnits": null,
-        "quantity": null,
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].picketLength)",
+        "quantity": "#add(#add(#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].picketQuantity), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].dogLegPicketQuantity)), #valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].ddlExtPicketQuantity))",
         "locDesc": "picket"
       },
       {
@@ -152,7 +170,7 @@
       },
       {
         "materialId": 10,
-        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].topRailLength)",
+        "qtyUnits": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].grabRailLength)",
         "quantity": 1,
         "locDesc": "grabrailPipe"
       },
@@ -165,7 +183,7 @@
       {
         "materialId": 1,
         "qtyUnits": 1,
-        "quantity": null,
+        "quantity": "#valueof($.flightConsts[?(@.flightId == $.flights[0].flightId)].bracketQuantity)",
         "locDesc": "bracket"
       }
     ]
