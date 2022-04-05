@@ -21,7 +21,7 @@ namespace CostEstimator
             // Combine initial config with material data and constants
             string materialsTransformer = File.ReadAllText(("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/materials_transformer.json"));
             string transformedConfig = new JsonTransformer(context).Transform(materialsTransformer, config);
-            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/config+material_output.json", transformedConfig);
+            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/flightConsts.json", transformedConfig);
 
 
             // Iterate through flights and transform full tower
