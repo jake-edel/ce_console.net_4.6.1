@@ -1,5 +1,5 @@
 {
-  "#": [ "#copy($)" ],
+  //"#": [ "#copy($)" ],
   "flightConsts": {
     "#loop($.flights)": {
       // FLIGHT INFO
@@ -10,6 +10,7 @@
       "ddlHypotenuse": "#CostMethods.FlightSolver::FindDdlHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11)",
       // LANDING
       "landingLength": "#currentvalueatpath($.landingLength)",
+      "landingWidth": "#currentvalueatpath($.landingWidth)",
       "landingArea": "#multiply(#subtract(#currentvalueatpath($.landingWidth),  2.25), #currentvalueatpath($.landingLength))",
       "supportChannelLength": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
       "supportStudQuantity": "#CostMethods.FlightSolver::SupportStudQuantity(#currentvalueatpath($.landingWidth))",
@@ -18,13 +19,14 @@
       "topPanArea": "#multiply(#currentvalueatpath($.stairWidth), 10.7)",
       "midPanArea": "#multiply(#currentvalueatpath($.stairWidth), 17.25)",
       "botPanArea": "#multiply(#currentvalueatpath($.stairWidth), 6.25)",
+      "stringerThickness": "#currentvalueatpath($.stringerThickness)",
       "stringerArea": "#CostMethods.FlightSolver::StringerArea(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), 11,  #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11)",
       // RAILING
       "topRailLength": "#CostMethods.FlightSolver::FindDdlHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11)",
-      "grabRailLength": "#CostMethods.FlightSolver::FindDdlHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11)",
+      "grabRailLength": "#add(#CostMethods.FlightSolver::FindDdlHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11), 12)",
       "bottomRailQuantity": "#add(#CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.runLength)), 1)",
       "bottomRailLength": "#subtract(#CostMethods.FlightSolver::FindDdlHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11), #multiply(#CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.runLength)), 1.5))",
-      //"bottomRailLength": "#subtract(#CostMethods.FlightSolver::FindDdlHypotenuse(#currentvalueatpath($.riseHeight), #currentvalueatpath($.runLength), #currentvalueatpath($.isDdl), #currentvalueatpath($.riserHeight), 11), #multiply(#CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.runLength)), 1.5))",
+      "bracketQuantity": "#multiply(#add(#add(#add(#CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.runLength)), 2), #CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.dogLegLength))), #CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.ddlExtensionLength))), 2)",
       "postHeight": 50,
       "intPostHeight": 49.25,
       "intPostQuantity": "#CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.runLength))",
@@ -38,14 +40,14 @@
       "dogLegTopRailQuantity": "#ifcondition(#currentvalueatpath($.isDogLeg), #toboolean(true), #tointeger(1), #tointeger(0))",
       "dogLegTopRailLength": "#ifcondition(#currentvalueatpath($.isDogLeg), #toboolean(true), #currentvalueatpath($.dogLegLength), #tointeger(0))",
       "dogLegBotRailQuantity": "#ifcondition(#currentvalueatpath($.isDogLeg), #toboolean(true), #tointeger(1), #tointeger(0))",
-      "dogLegBottomRailLength": "#ifcondition(#currentvalueatpath($.isDogLeg), #toboolean(true), #subtract(#currentvalueatpath($.dogLegLength), 1.5), #tointeger(0))",
+      "dogLegBotRailLength": "#ifcondition(#currentvalueatpath($.isDogLeg), #toboolean(true), #subtract(#currentvalueatpath($.dogLegLength), 1.5), #tointeger(0))",
       "dogLegIntPostQuantity": "#CostMethods.FlightSolver::IntPostQuantity(#currentvalueatpath($.dogLegLength))",
       "dogLegPicketQuantity": "#CostMethods.FlightSolver::PicketQuantity(#currentvalueatpath($.dogLegLength))",
       // DOWNWARD DOG LEG
       "isDdl": "#currentvalueatpath($.isDdl)",
       "ddlBotPanArea": "#ifcondition(#currentvalueatpath($.isDdl), #toboolean(true), #multiply(#currentvalueatpath($.stairWidth), 11), #tointeger(0))",
       // DOGLEG EXTENSION
-      "ddlExtensionLength": "#currentvalueatpath($.ddlExtensionLength)",
+      "ddlExtLength": "#currentvalueatpath($.ddlExtensionLength)",
       "ddlExtStringerArea": "#ifcondition(#currentvalueatpath($.isDdl), #toboolean(true), #multiply(#currentvalueatpath($.ddlExtensionLength), 11),#tointeger(0))",
       "ddlExtBotPanArea": "#multiply(#currentvalueatpath($.stairWidth), #currentvalueatpath($.ddlExtensionLength))",
       "ddlExtTopRailQuantity": "#ifcondition(#currentvalueatpath($.ddlExtensionLength), #tointeger(0), #tointeger(0), #tointeger(1))",
