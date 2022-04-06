@@ -85,7 +85,7 @@
           "locDesc": "leftStringer"
         },
         {
-          "materialId": "#ifcondition(#currentvalueatpath($.flights[0].stringerThickness),0.25,#tointeger(0),#tointeger(1))",
+          "materialId": "#ifcondition(#currentvalueatpath($.stringerThickness),0.25,#tointeger(0),#tointeger(1))",
           "qtyUnits": "#add(#add(#currentvalueatpath($.stringerArea),#currentvalueatpath($.dogLegStringerArea)), #currentvalueatpath($.ddlExtStringerArea))",
           "quantity": 1,
           "locDesc": "rightStringer"
