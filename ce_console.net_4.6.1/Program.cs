@@ -19,8 +19,8 @@ namespace CostEstimator
 
 
             // Combine initial config with material data and constants
-            string materialsTransformer = File.ReadAllText(("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/materials_transformer.json"));
-            string transformedConfig = new JsonTransformer(context).Transform(materialsTransformer, config);
+            string constantsTransformer = File.ReadAllText(("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/constants_transformer.json"));
+            string transformedConfig = new JsonTransformer(context).Transform(constantsTransformer, config);
             File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/flightConsts.json", transformedConfig);
 
 
@@ -28,6 +28,12 @@ namespace CostEstimator
             string towerTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/tower_transformer.json");
             string transformedTower = new JsonTransformer(context).Transform(towerTransformer, transformedConfig);
             File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json", transformedTower);
+
+            string totalUnitsTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/weight_transformer.json");
+            string transformedWeight = new JsonTransformer(context).Transform(totalUnitsTransformer, transformedTower);
+            File.WriteAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/output/total_units_output.json", transformedWeight);
+
+
 
             // Transform config/material JSON into data for a single flight
             string flightTransformer = File.ReadAllText("/Users/Jake/source/repos/ce_console.net_4.6.1/ce_console.net_4.6.1/transformers/flight_transformer.json"); ;

@@ -1,0 +1,33 @@
+{
+  "flights": {
+    "#loop($.flights)": {
+      "flight": "#currentvalueatpath($.flightId)",
+      "landing": {
+        "#loop($.landing)": {
+          "locDesc": "#currentvalueatpath($.locDesc)", 
+          "materialId": "#currentvalueatpath($.materialId)",
+          "totalUnits": "#multiply(#currentvalueatpath($.qtyUnits), #currentvalueatpath($.quantity))"
+        }
+      },
+      "stairs": {
+        "#loop($.stairs)": {
+          "locDesc": "#currentvalueatpath($.locDesc)",
+          "materialId": "#currentvalueatpath($.materialId)",
+          "totalUnits": "#multiply(#currentvalueatpath($.qtyUnits), #currentvalueatpath($.quantity))"
+        },
+        "railing": {
+          "#loop($.railing)": {
+            "locDesc": "#currentvalueatpath($.locDesc)",
+            "materialId": "#currentvalueatpath($.materialId)",
+            "totalUnits": "#multiply(#currentvalueatpath($.qtyUnits), #currentvalueatpath($.quantity))"
+          }
+        }
+      }
+    }
+  },
+  "materials": {
+    "#loop($.materials)": {
+      "material": "#currentvalueatpath($.name)",
+    }
+  }
+}
