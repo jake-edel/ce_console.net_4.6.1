@@ -1,1 +1,2005 @@
-{"flights":[{"flightId":0,"landing":[{"materialId":3,"qtyUnits":4721.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":42.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":42.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":42.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":37.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1190.42,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1190.42,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":8,"locDesc":"midPan"},{"materialId":3,"qtyUnits":281.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":108.22,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":105.22,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":22,"locDesc":"picket"},{"materialId":10,"qtyUnits":108.22,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":120.22,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":8,"locDesc":"bracket"}]},{"flightId":1,"landing":[{"materialId":3,"qtyUnits":8054.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":75.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":75.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":75.25,"quantity":5,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":70.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1333.64,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1333.64,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":8,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":121.24,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":118.24,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":22,"locDesc":"picket"},{"materialId":10,"qtyUnits":121.24,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":133.24,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":8,"locDesc":"bracket"}]},{"flightId":2,"landing":[{"materialId":3,"qtyUnits":4721.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":42.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":42.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":42.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":37.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1313.17,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1313.17,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":8,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":119.66,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":116.66,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":22,"locDesc":"picket"},{"materialId":10,"qtyUnits":119.66,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":131.66,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":8,"locDesc":"bracket"}]},{"flightId":3,"landing":[{"materialId":3,"qtyUnits":5832.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":53.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":53.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":53.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":48.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1555.17,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1555.17,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":1471.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":8,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":49.25,"quantity":1,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":119.66,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":22,"quantity":1,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":116.66,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":20.5,"quantity":1,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":27,"locDesc":"picket"},{"materialId":10,"qtyUnits":119.66,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":131.66,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":10,"locDesc":"bracket"}]},{"flightId":4,"landing":[{"materialId":3,"qtyUnits":4721.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":42.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":42.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":42.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":37.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1613.37,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1613.37,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":10,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":3,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":146.67,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":142.17,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":27,"locDesc":"picket"},{"materialId":10,"qtyUnits":146.67,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":158.67,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":10,"locDesc":"bracket"}]},{"flightId":5,"landing":[{"materialId":3,"qtyUnits":5832.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":53.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":53.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":53.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":48.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1613.37,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1613.37,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":10,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":3,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":146.67,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":142.17,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":27,"locDesc":"picket"},{"materialId":10,"qtyUnits":146.67,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":158.67,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":10,"locDesc":"bracket"}]},{"flightId":6,"landing":[{"materialId":3,"qtyUnits":4721.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":42.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":42.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":42.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":37.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1562,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1562,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":1471.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":8,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":49.25,"quantity":1,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":120.21,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":22,"quantity":1,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":117.21,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":20.5,"quantity":1,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":27,"locDesc":"picket"},{"materialId":10,"qtyUnits":120.21,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":132.21,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":10,"locDesc":"bracket"}]},{"flightId":7,"landing":[{"materialId":3,"qtyUnits":9165.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":86.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":86.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":86.25,"quantity":5,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":81.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1182.94,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1182.94,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":7,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":1,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":107.33,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":11,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":104.33,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":21,"locDesc":"picket"},{"materialId":10,"qtyUnits":107.33,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":119.33,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":10,"locDesc":"bracket"}]},{"flightId":8,"landing":[{"materialId":3,"qtyUnits":4721.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":42.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":42.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":42.25,"quantity":3,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":37.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1177.77,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1177.77,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":8,"locDesc":"midPan"},{"materialId":3,"qtyUnits":281.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":107.28,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":104.28,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":22,"locDesc":"picket"},{"materialId":10,"qtyUnits":107.28,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":119.28,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":8,"locDesc":"bracket"}]},{"flightId":9,"landing":[{"materialId":3,"qtyUnits":9165.75,"quantity":1,"locDesc":"topSheet"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"frontHeader"},{"materialId":4,"qtyUnits":101,"quantity":1,"locDesc":"backHeader"},{"materialId":4,"qtyUnits":86.25,"quantity":2,"locDesc":"sideChannel"},{"materialId":5,"qtyUnits":86.25,"quantity":1,"locDesc":"midSpanChannel"},{"materialId":1,"qtyUnits":25,"quantity":2,"locDesc":"c8ShearTab"},{"materialId":0,"qtyUnits":16,"quantity":2,"locDesc":"c6ShearTab"},{"materialId":13,"qtyUnits":86.25,"quantity":5,"locDesc":"supportStud"},{"materialId":6,"qtyUnits":81.75,"quantity":2,"locDesc":"supportAngle"},{"materialId":2,"qtyUnits":100,"quantity":4,"locDesc":"embedPlate"},{"materialId":12,"qtyUnits":1,"quantity":4,"locDesc":"anchorStuds"},{"materialId":7,"qtyUnits":8,"quantity":1,"locDesc":"angleBracket"}],"stairs":[{"materialId":0,"qtyUnits":1182.94,"quantity":1,"locDesc":"leftStringer"},{"materialId":1,"qtyUnits":1182.94,"quantity":1,"locDesc":"rightStringer"},{"materialId":3,"qtyUnits":481.5,"quantity":1,"locDesc":"topPan"},{"materialId":3,"qtyUnits":776.25,"quantity":7,"locDesc":"midPan"},{"materialId":3,"qtyUnits":776.25,"quantity":1,"locDesc":"bottomPan"}],"railing":[{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"bottomPost"},{"materialId":8,"qtyUnits":50,"quantity":1,"locDesc":"topPost"},{"materialId":8,"qtyUnits":49.25,"quantity":2,"locDesc":"intermediatePost"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegIntPost"},{"materialId":8,"qtyUnits":107.33,"quantity":1,"locDesc":"topRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegTopRail"},{"materialId":8,"qtyUnits":104.33,"quantity":1,"locDesc":"bottomRail"},{"materialId":8,"qtyUnits":0,"quantity":0,"locDesc":"dogLegBotRail"},{"materialId":9,"qtyUnits":35,"quantity":19,"locDesc":"picket"},{"materialId":10,"qtyUnits":107.33,"quantity":1,"locDesc":"handrailPipe"},{"materialId":10,"qtyUnits":119.33,"quantity":1,"locDesc":"grabrailPipe"},{"materialId":11,"qtyUnits":1,"quantity":4,"locDesc":"elbow"},{"materialId":1,"qtyUnits":1,"quantity":8,"locDesc":"bracket"}]}],"materials":[{"id":0,"name":"Plate, .25","unitOfMeasurement":"sqFt","pricingUnit":"lb","lbsPerFoot":10.21,"pricePerUnit":null},{"id":1,"name":"Plate, .3125","unitOfMeasurement":"sqFt","pricingUnit":"lb","lbsPerFoot":15.32,"pricePerUnit":null},{"id":2,"name":"Plate, .5","unitOfMeasurement":"sqFt","pricingUnit":"lb","lbsPerFoot":20.42,"pricePerUnit":null},{"id":3,"name":"Plate, 14 GA Checker","unitOfMeasurement":"sqFt","pricingUnit":"lb","lbsPerFoot":3.125,"pricePerUnit":null},{"id":4,"name":"Channel, C8x11.5","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":11.5,"pricePerUnit":null},{"id":5,"name":"Channel, C6x8.2","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":8.2,"pricePerUnit":null},{"id":6,"name":"Angle, L2 x 2 x .25","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":3.19,"pricePerUnit":null},{"id":7,"name":"Angle, L5 x 3 x .3125","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":9.8,"pricePerUnit":null},{"id":8,"name":"Tube, 1.5 x 1.5 x .1875","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":3.046,"pricePerUnit":null},{"id":9,"name":"Tube, .5 x .5 x 16GA","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":0.384,"pricePerUnit":null},{"id":10,"name":"Pipe, 1.25 SCH 10","unitOfMeasurement":"in","pricingUnit":"lb","lbsPerFoot":1.81,"pricePerUnit":null},{"id":11,"name":"Pipe, 1.25 90deg Elbow","unitOfMeasurement":"ea","pricingUnit":"ea","pricePerUnit":null},{"id":12,"name":"Anchor Studs","unitOfMeasurement":"in","pricingUnit":null,"pricePerUnit":null},{"id":13,"name":"Support Studs","unitOfMeasurement":"in","pricingUnit":"ft","pricePerUnit":null}]}
+{
+  "flights": [
+    {
+      "flightId": 0,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 4721.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 42.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1190.42,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1190.42,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 281.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 108.22,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 105.22,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 22,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 108.22,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 120.22,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 8,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 1,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 8054.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 75.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 75.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 75.25,
+          "quantity": 5,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 70.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1333.64,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1333.64,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 121.24,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 118.24,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 22,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 121.24,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 133.24,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 8,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 2,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 4721.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 42.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1313.17,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1313.17,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 119.66,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 116.66,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 22,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 119.66,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 131.66,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 8,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 3,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 5832.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 53.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 53.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 53.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 48.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1555.17,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1555.17,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 1471.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 1,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 119.66,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 22,
+          "quantity": 1,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 116.66,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 20.5,
+          "quantity": 1,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 27,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 119.66,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 131.66,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 10,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 4,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 4721.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 42.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1613.37,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1613.37,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 10,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 3,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 146.67,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 142.17,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 27,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 146.67,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 158.67,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 10,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 5,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 5832.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 53.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 53.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 53.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 48.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1613.37,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1613.37,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 10,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 3,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 146.67,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 142.17,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 27,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 146.67,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 158.67,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 10,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 6,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 4721.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 42.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1562,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1562,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 1471.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 1,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 120.21,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 22,
+          "quantity": 1,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 117.21,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 20.5,
+          "quantity": 1,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 27,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 120.21,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 132.21,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 10,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 7,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 9165.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 86.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 86.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 86.25,
+          "quantity": 5,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 81.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1182.94,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1182.94,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 7,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 1,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 107.33,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 11,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 104.33,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 21,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 107.33,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 119.33,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 10,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 8,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 4721.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 42.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 42.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 42.25,
+          "quantity": 3,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 37.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1177.77,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1177.77,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 8,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 281.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 107.28,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 104.28,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 22,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 107.28,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 119.28,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 8,
+          "locDesc": "bracket"
+        }
+      ]
+    },
+    {
+      "flightId": 9,
+      "landing": [
+        {
+          "materialId": 3,
+          "qtyUnits": 9165.75,
+          "quantity": 1,
+          "locDesc": "topSheet"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "frontHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 101,
+          "quantity": 1,
+          "locDesc": "backHeader"
+        },
+        {
+          "materialId": 4,
+          "qtyUnits": 86.25,
+          "quantity": 2,
+          "locDesc": "sideChannel"
+        },
+        {
+          "materialId": 5,
+          "qtyUnits": 86.25,
+          "quantity": 1,
+          "locDesc": "midSpanChannel"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 25,
+          "quantity": 2,
+          "locDesc": "c8ShearTab"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 16,
+          "quantity": 2,
+          "locDesc": "c6ShearTab"
+        },
+        {
+          "materialId": 13,
+          "qtyUnits": 86.25,
+          "quantity": 5,
+          "locDesc": "supportStud"
+        },
+        {
+          "materialId": 6,
+          "qtyUnits": 81.75,
+          "quantity": 2,
+          "locDesc": "supportAngle"
+        },
+        {
+          "materialId": 2,
+          "qtyUnits": 100,
+          "quantity": 4,
+          "locDesc": "embedPlate"
+        },
+        {
+          "materialId": 12,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "anchorStuds"
+        },
+        {
+          "materialId": 7,
+          "qtyUnits": 8,
+          "quantity": 1,
+          "locDesc": "angleBracket"
+        }
+      ],
+      "stairs": [
+        {
+          "materialId": 0,
+          "qtyUnits": 1182.94,
+          "quantity": 1,
+          "locDesc": "leftStringer"
+        },
+        {
+          "materialId": 0,
+          "qtyUnits": 1182.94,
+          "quantity": 1,
+          "locDesc": "rightStringer"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 481.5,
+          "quantity": 1,
+          "locDesc": "topPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 7,
+          "locDesc": "midPan"
+        },
+        {
+          "materialId": 3,
+          "qtyUnits": 776.25,
+          "quantity": 1,
+          "locDesc": "bottomPan"
+        }
+      ],
+      "railing": [
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "bottomPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 50,
+          "quantity": 1,
+          "locDesc": "topPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 49.25,
+          "quantity": 2,
+          "locDesc": "intermediatePost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegIntPost"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 107.33,
+          "quantity": 1,
+          "locDesc": "topRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegTopRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 104.33,
+          "quantity": 1,
+          "locDesc": "bottomRail"
+        },
+        {
+          "materialId": 8,
+          "qtyUnits": 0,
+          "quantity": 0,
+          "locDesc": "dogLegBotRail"
+        },
+        {
+          "materialId": 9,
+          "qtyUnits": 35,
+          "quantity": 19,
+          "locDesc": "picket"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 107.33,
+          "quantity": 1,
+          "locDesc": "handrailPipe"
+        },
+        {
+          "materialId": 10,
+          "qtyUnits": 119.33,
+          "quantity": 1,
+          "locDesc": "grabrailPipe"
+        },
+        {
+          "materialId": 11,
+          "qtyUnits": 1,
+          "quantity": 4,
+          "locDesc": "elbow"
+        },
+        {
+          "materialId": 1,
+          "qtyUnits": 1,
+          "quantity": 8,
+          "locDesc": "bracket"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": 0,
+      "name": "Plate, .25",
+      "unitOfMeasurement": "sqFt",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 10.21,
+      "pricePerUnit": null
+    },
+    {
+      "id": 1,
+      "name": "Plate, .3125",
+      "unitOfMeasurement": "sqFt",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 15.32,
+      "pricePerUnit": null
+    },
+    {
+      "id": 2,
+      "name": "Plate, .5",
+      "unitOfMeasurement": "sqFt",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 20.42,
+      "pricePerUnit": null
+    },
+    {
+      "id": 3,
+      "name": "Plate, 14 GA Checker",
+      "unitOfMeasurement": "sqFt",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 3.125,
+      "pricePerUnit": null
+    },
+    {
+      "id": 4,
+      "name": "Channel, C8x11.5",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 11.5,
+      "pricePerUnit": null
+    },
+    {
+      "id": 5,
+      "name": "Channel, C6x8.2",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 8.2,
+      "pricePerUnit": null
+    },
+    {
+      "id": 6,
+      "name": "Angle, L2 x 2 x .25",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 3.19,
+      "pricePerUnit": null
+    },
+    {
+      "id": 7,
+      "name": "Angle, L5 x 3 x .3125",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 9.8,
+      "pricePerUnit": null
+    },
+    {
+      "id": 8,
+      "name": "Tube, 1.5 x 1.5 x .1875",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 3.046,
+      "pricePerUnit": null
+    },
+    {
+      "id": 9,
+      "name": "Tube, .5 x .5 x 16GA",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 0.384,
+      "pricePerUnit": null
+    },
+    {
+      "id": 10,
+      "name": "Pipe, 1.25 SCH 10",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "lb",
+      "lbsPerFoot": 1.81,
+      "pricePerUnit": null
+    },
+    {
+      "id": 11,
+      "name": "Pipe, 1.25 90deg Elbow",
+      "unitOfMeasurement": "ea",
+      "pricingUnit": "ea",
+      "pricePerUnit": null
+    },
+    {
+      "id": 12,
+      "name": "Anchor Studs",
+      "unitOfMeasurement": "in",
+      "pricingUnit": null,
+      "pricePerUnit": null
+    },
+    {
+      "id": 13,
+      "name": "Support Studs",
+      "unitOfMeasurement": "in",
+      "pricingUnit": "ft",
+      "pricePerUnit": null
+    }
+  ]
+}
