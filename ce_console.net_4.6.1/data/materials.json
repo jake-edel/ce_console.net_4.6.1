@@ -2,29 +2,33 @@
   {
     "id": 0,
     "name": "Plate, .25",
-    "unitOfMeasurement": "sqIn",
+    "unitOfMeasurement": "sqFt",
     "pricingUnit": "lb",
+    "lbsPerFoot": 10.21,
     "pricePerUnit": null
   },
   {
     "id": 1,
     "name": "Plate, .3125",
-    "unitOfMeasurement": "sqIn",
+    "unitOfMeasurement": "sqFt",
     "pricingUnit": "lb",
+    "lbsPerFoot": 15.32,
     "pricePerUnit": null
   },
   {
     "id": 2,
     "name": "Plate, .5",
-    "unitOfMeasurement": "sqIn",
+    "unitOfMeasurement": "sqFt",
     "pricingUnit": "lb",
+    "lbsPerFoot": 20.42,
     "pricePerUnit": null
   },
   {
     "id": 3,
     "name": "Plate, 14 GA Checker",
-    "unitOfMeasurement": "sqIn",
-    "pricingUnit": "sqFt",
+    "unitOfMeasurement": "sqFt",
+    "pricingUnit": "lb",
+    "lbsPerFoot": 3.125,
     "pricePerUnit": null
   },
   {
@@ -32,6 +36,7 @@
     "name": "Channel, C8x11.5",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 11.5,
     "pricePerUnit": null
   },
   {
@@ -39,6 +44,7 @@
     "name": "Channel, C6x8.2",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 8.2,
     "pricePerUnit": null
   },
   {
@@ -46,6 +52,7 @@
     "name": "Angle, L2 x 2 x .25",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 3.19,
     "pricePerUnit": null
   },
   {
@@ -53,6 +60,7 @@
     "name": "Angle, L5 x 3 x .3125",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 9.8,
     "pricePerUnit": null
   },
   {
@@ -60,6 +68,7 @@
     "name": "Tube, 1.5 x 1.5 x .1875",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 3.046,
     "pricePerUnit": null
   },
   {
@@ -67,6 +76,7 @@
     "name": "Tube, .5 x .5 x 16GA",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 0.384,
     "pricePerUnit": null
   },
   {
@@ -74,6 +84,7 @@
     "name": "Pipe, 1.25 SCH 10",
     "unitOfMeasurement": "in",
     "pricingUnit": "lb",
+    "lbsPerFoot": 1.81,
     "pricePerUnit": null
   },
   {
