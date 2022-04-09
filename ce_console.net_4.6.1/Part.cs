@@ -11,9 +11,26 @@ namespace CostEstimator
 
         public double Weight(Dictionary<string, Material> materials)
         {
-            double lengthFt = (QtyUnits * Quantity) / 12;
-            double value = materials[MaterialId.ToString()].LbsPerFoot * lengthFt;
-            return System.Math.Truncate(100 * value) / 100;
+            if (materials[MaterialId.ToString()].UnitOfMeasurement == "in")
+            {
+                double lengthFt = (QtyUnits * Quantity) / 12;
+                double value = materials[MaterialId.ToString()].LbsPerFoot * lengthFt;
+                return System.Math.Truncate(100 * value) / 100;
+            } 
+            else if (materials[MaterialId.ToString()].UnitOfMeasurement == "sqFt")
+            {
+                double lengthFt = (QtyUnits * Quantity) / 144;
+                double value = materials[MaterialId.ToString()].LbsPerFoot * lengthFt;
+                return System.Math.Truncate(100 * value) / 100;
+            } 
+            else if ((materials[MaterialId.ToString()].UnitOfMeasurement == "ea"))
+            {
+                return Quantity;
+            }
+            else
+            {
+                return 0;
+            }
 
 
         }
