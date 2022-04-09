@@ -24,22 +24,52 @@ namespace CostEstimator
             string towerJson = File.ReadAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json");            
             var flights = JsonConvert.DeserializeObject<Dictionary<string, List<Flight>>>(towerJson);
 
-            foreach (Flight flight in flights["flights"])
+            SumPartsByMaterial(flights, materials);
+            Console.ReadLine();
+        }
+
+        public static void SumPartsByMaterial(Dictionary<string, List<Flight>> flights, Dictionary<string, Material> materials)
+        {
+            foreach (Material material in materials.Values)
             {
-                Console.WriteLine(flight.FlightId);
-                foreach (Part part in flight.Landing)
+                double totalCount = 0;
+                double totalWeight = 0;
+                foreach (Flight flight in flights["flights"])
                 {
-                    if (part.MaterialId == 4)
+                    foreach (Part part in flight.Landing)
                     {
-                        Console.WriteLine(part.locDesc);
-                        Console.WriteLine("Quantity Units: " + part.QtyUnits);
-                        Console.WriteLine("Quantity: " + part.Quantity);
+                        if (part.MaterialId == material.Id)
+                        {
+                            totalCount += (part.QtyUnits * part.Quantity);
+                            totalWeight += part.Weight(materials);
+                        }
+                    }
+
+                    foreach (Part part in flight.Stairs)
+                    {
+                        if (part.MaterialId == material.Id)
+                        {
+                            totalCount += (part.QtyUnits * part.Quantity);
+                            totalWeight += part.Weight(materials);
+
+                        }
+                    }
+                    foreach (Part part in flight.Railing)
+                    {
+                        if (part.MaterialId == material.Id)
+                        {
+                            totalCount += (part.QtyUnits * part.Quantity);
+                            totalWeight += part.Weight(materials);
+
+                        }
                     }
                 }
+
+                Console.WriteLine(material.Name);
+                Console.WriteLine("{0} inches", totalCount);
+                Console.WriteLine("{0} lbs", totalWeight);
+                Console.WriteLine();
             }
-
-            Console.ReadLine();
-
         }
 
         public static void TransformConfig(string configJson)
