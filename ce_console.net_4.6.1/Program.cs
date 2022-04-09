@@ -66,7 +66,7 @@ namespace CostEstimator
                 }
 
                 Console.WriteLine(material.Name);
-                Console.WriteLine("{0} inches", totalCount);
+                Console.WriteLine("{0} length units", totalCount);
                 Console.WriteLine("{0} lbs", totalWeight);
                 Console.WriteLine();
             }
