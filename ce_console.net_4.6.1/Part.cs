@@ -25,14 +25,12 @@ namespace CostEstimator
             } 
             else if ((materials[MaterialId.ToString()].UnitOfMeasurement == "ea"))
             {
-                return Quantity;
+                return 0;
             }
             else
             {
                 return 0;
             }
-
-
         }
     }
 }
