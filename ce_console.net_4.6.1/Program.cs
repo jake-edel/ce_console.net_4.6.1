@@ -21,11 +21,27 @@ namespace CostEstimator
             var materials = JsonConvert.DeserializeObject<Dictionary<string, Material>>(materialsJson);
 
 
-            string towerJson = File.ReadAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json");            
+            string towerJson = File.ReadAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/output/full_tower_output.json");
             var flights = JsonConvert.DeserializeObject<Dictionary<string, List<Flight>>>(towerJson);
 
             SumPartsByMaterial(flights, materials);
+
+            SumFlightsBom(flights, materials);
+
+
+
+
+
             Console.ReadLine();
+        }
+
+        public static void SumFlightsBom(Dictionary<string, List<Flight>> flights, Dictionary<string, Material> materials)
+        {
+            foreach(Flight flight in flights["flights"])
+            {
+                //var totalWeight =
+             
+            }
         }
 
         public static void SumPartsByMaterial(Dictionary<string, List<Flight>> flights, Dictionary<string, Material> materials)
@@ -66,7 +82,7 @@ namespace CostEstimator
                 }
 
                 Console.WriteLine(material.Name);
-                Console.WriteLine("{0} length units", totalCount);
+                Console.WriteLine("{0} {1}", totalCount, material.UnitOfMeasurement);
                 Console.WriteLine("{0} lbs", totalWeight);
                 Console.WriteLine();
             }
