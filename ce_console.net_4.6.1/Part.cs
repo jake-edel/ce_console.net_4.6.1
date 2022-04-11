@@ -9,6 +9,8 @@ namespace CostEstimator
         public double QtyUnits { get; set; }
         public int Quantity { get; set; }
 
+        public double TotalUnits() => QtyUnits * Quantity;
+
         public double Weight(Dictionary<string, Material> materials)
         {
             if (materials[MaterialId.ToString()].UnitOfMeasurement == "in")
