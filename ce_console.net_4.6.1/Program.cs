@@ -28,19 +28,53 @@ namespace CostEstimator
 
             SumFlightsBom(flights, materials);
 
-
-
-
-
             Console.ReadLine();
         }
 
         public static void SumFlightsBom(Dictionary<string, List<Flight>> flights, Dictionary<string, Material> materials)
         {
+
+            Dictionary<string, double> partBom = new Dictionary<string, double>();
+
             foreach(Flight flight in flights["flights"])
             {
-                //var totalWeight =
-             
+                foreach (Part part in flight.Landing)
+                {
+                    if (partBom.ContainsKey(part.locDesc))
+                    {
+                        partBom[part.locDesc] += part.TotalUnits();
+                    } else
+                    {
+                        partBom.Add(part.locDesc, part.TotalUnits());
+                    }
+                }
+                foreach(Part part in flight.Stairs)
+                {
+                    if (partBom.ContainsKey(part.locDesc))
+                    {
+                        partBom[part.locDesc] += part.TotalUnits();
+                    }
+                    else
+                    {
+                        partBom.Add(part.locDesc, part.TotalUnits());
+                    }
+                }
+                foreach(Part part in flight.Railing)
+                {
+                    if (partBom.ContainsKey(part.locDesc))
+                    {
+                        partBom[part.locDesc] += part.TotalUnits();
+                    }
+                    else
+                    {
+                        partBom.Add(part.locDesc, part.TotalUnits());
+                    }
+                }
+            }
+            foreach (KeyValuePair<string, double> partLengths in partBom)
+            {
+                Console.WriteLine(partLengths.Key + " " + partLengths.Value);
+                Console.WriteLine();
             }
         }
 
@@ -56,7 +90,7 @@ namespace CostEstimator
                     {
                         if (part.MaterialId == material.Id)
                         {
-                            totalCount += (part.QtyUnits * part.Quantity);
+                            totalCount += part.TotalUnits();
                             totalWeight += part.Weight(materials);
                         }
                     }
@@ -65,7 +99,7 @@ namespace CostEstimator
                     {
                         if (part.MaterialId == material.Id)
                         {
-                            totalCount += (part.QtyUnits * part.Quantity);
+                            totalCount += part.TotalUnits();
                             totalWeight += part.Weight(materials);
 
                         }
@@ -74,7 +108,7 @@ namespace CostEstimator
                     {
                         if (part.MaterialId == material.Id)
                         {
-                            totalCount += (part.QtyUnits * part.Quantity);
+                            totalCount += part.TotalUnits();
                             totalWeight += part.Weight(materials);
 
                         }
