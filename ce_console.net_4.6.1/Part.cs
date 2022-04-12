@@ -11,28 +11,38 @@ namespace CostEstimator
 
         public double TotalUnits() => QtyUnits * Quantity;
 
-        public double Weight(Dictionary<string, Material> materials)
+        public double LengthFt() => TotalUnits() / 12;
+
+        public double AreaSqFt() => TotalUnits() / 144;
+
+        public double QtyPricingUnits(Dictionary<string, Material> materials)
         {
             if (materials[MaterialId.ToString()].UnitOfMeasurement == "in")
             {
-                double lengthFt = (QtyUnits * Quantity) / 12;
-                double value = materials[MaterialId.ToString()].LbsPerFoot * lengthFt;
+                double value = materials[MaterialId.ToString()].LbsPerFoot * LengthFt();
                 return System.Math.Truncate(100 * value) / 100;
             } 
-            else if (materials[MaterialId.ToString()].UnitOfMeasurement == "sqFt")
+            else if (materials[MaterialId.ToString()].UnitOfMeasurement == "sqIn")
             {
-                double lengthFt = (QtyUnits * Quantity) / 144;
-                double value = materials[MaterialId.ToString()].LbsPerFoot * lengthFt;
+                double value = materials[MaterialId.ToString()].LbsPerFoot * AreaSqFt();
                 return System.Math.Truncate(100 * value) / 100;
             } 
             else if ((materials[MaterialId.ToString()].UnitOfMeasurement == "ea"))
             {
-                return 0;
+                return Quantity;
             }
-            else
+            else if ((materials[MaterialId.ToString()].UnitOfMeasurement == "ft"))
+            {
+                return LengthFt();
+            } else
             {
                 return 0;
             }
+        }
+
+        public double Price(Dictionary<string, Material> materials)
+        {
+            return QtyPricingUnits(materials) * materials[MaterialId.ToString()].PricePerUnit;
         }
     }
 }
