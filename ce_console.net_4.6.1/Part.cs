@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Text;
 
 namespace CostEstimator
 {
@@ -6,6 +7,7 @@ namespace CostEstimator
     {
         public string locDesc { get; set; }
         public int MaterialId { get; set; }
+        public Material Material { get; set; }
         public double QtyUnits { get; set; }
         public int Quantity { get; set; }
 
@@ -43,6 +45,17 @@ namespace CostEstimator
         public double Price(Dictionary<string, Material> materials)
         {
             return QtyPricingUnits(materials) * materials[MaterialId.ToString()].PricePerUnit;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder;
+            sb.AppendLine(locDesc);
+            sb.AppendLine("QuantityUnits: " + QtyUnits);
+            sb.AppendLine("Quantity: " + Quantity);
+            sb.AppendLine("Total Units: " + TotalUnits());
+            sb.AppendLine("Total Units: " + Price());
+            return base.ToString();
         }
     }
 }
