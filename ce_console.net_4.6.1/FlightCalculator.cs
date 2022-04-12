@@ -13,19 +13,20 @@ namespace CostEstimator
         {
             Materials = materials;
             Flights = flights;
+
         }
 
         public void SumFlight(int flightId)
         {
 
-            var flightParts = from flight in Flights["flights"]
+            var landingParts = from flight in Flights["flights"]
                               where flight.FlightId == flightId
                               select flight.Landing;
 
 
-            foreach (var flight in flightParts)
+            foreach (var part in landingParts)
             {
-                var landingParts = from landing in flight
+                Console.WriteLine(part);
             }
         }
         public void SumAllFlights()
