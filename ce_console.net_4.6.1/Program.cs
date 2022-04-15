@@ -2,6 +2,7 @@
 using System.IO;
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CostEstimator
 {
@@ -20,9 +21,11 @@ namespace CostEstimator
 
             TowerCalculator tc = new TowerCalculator(flights, materials);
 
-            tc.SumFlight(0);
+            var flt = tc.SelectFlight(0);
 
-            //tc.SumAllFlights();
+            tc.SumFlight(flt);
+
+
 
             Console.ReadLine();
         }
