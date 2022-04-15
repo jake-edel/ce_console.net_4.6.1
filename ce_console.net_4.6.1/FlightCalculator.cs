@@ -16,73 +16,47 @@ namespace CostEstimator
 
         }
 
-        public void SumFlight(int flightId)
+        public Flight SelectFlight(int flightId)
         {
 
-            var landingParts = from flight in Flights["flights"]
+            var selection = from flight in Flights["flights"]
                               where flight.FlightId == flightId
-                              select flight.Landing;
+                              select flight;
 
-
-            foreach (var part in landingParts)
-            {
-                Console.WriteLine(part);
-            }
+            return selection.First();
         }
-        public void SumAllFlights()
+
+        public void SumFlight(Flight flight)
         {
-            Dictionary<string, double> partBom = new Dictionary<string, double>();
+            double totalPrice = 0;
 
-            foreach(Flight flight in Flights["flights"])
+            var stairBom = from stairs in flight.Stairs
+                           select stairs;
+
+            foreach (Part part in stairBom)
             {
-                foreach (Part part in flight.Landing)
-                {
-                    if (partBom.ContainsKey(part.locDesc))
-                    {
-                        //partBom[part.locDesc] += part.TotalUnits();
-                        partBom[part.locDesc] += part.Price(Materials);
-
-                    }
-                    else
-                    {
-                        partBom.Add(part.locDesc, part.Price(Materials));
-                        //partBom.Add(part.locDesc, part.TotalUnits());
-                    }
-                }
-                foreach(Part part in flight.Stairs)
-                {
-                    if (partBom.ContainsKey(part.locDesc))
-                    {
-                        //partBom[part.locDesc] += part.TotalUnits();
-                        partBom[part.locDesc] += part.Price(Materials);
-
-                    }
-                    else
-                    {
-                        partBom.Add(part.locDesc, part.Price(Materials));
-                        //partBom.Add(part.locDesc, part.TotalUnits());
-                    }
-                }
-                foreach(Part part in flight.Railing)
-                {
-                    if (partBom.ContainsKey(part.locDesc))
-                    {
-                        //partBom[part.locDesc] += part.TotalUnits();
-                        partBom[part.locDesc] += part.Price(Materials);
-
-                    }
-                    else
-                    {
-                        partBom.Add(part.locDesc, part.Price(Materials));
-                        //partBom.Add(part.locDesc, part.TotalUnits());
-                    }
-                }
+                Console.WriteLine(part.ToString(Materials));
+                totalPrice += part.Price(Materials);
             }
-            foreach (KeyValuePair<string, double> partLengths in partBom)
+            var landingBom = from landing in flight.Landing
+                           select landing;
+
+            foreach (Part part in landingBom)
             {
-                Console.WriteLine(partLengths.Key + " " + partLengths.Value);
-                Console.WriteLine();
+                Console.WriteLine(part.ToString(Materials));
+                totalPrice += part.Price(Materials);
+
             }
+            var railBom = from railing in flight.Railing
+                           select railing;
+
+            foreach (Part part in railBom)
+            {
+                Console.WriteLine(part.ToString(Materials));
+                totalPrice += part.Price(Materials);
+            }
+
+
         }
     }
 }
