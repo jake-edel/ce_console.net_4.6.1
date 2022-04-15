@@ -43,18 +43,20 @@ namespace CostEstimator
 
         public double Price(Dictionary<string, Material> materials)
         {
-            return QtyPricingUnits(materials) * materials[MaterialId.ToString()].PricePerUnit;
+            double value = QtyPricingUnits(materials) * materials[MaterialId.ToString()].PricePerUnit;
+            return System.Math.Truncate(100 * value) / 100;
         }
 
-        public override string ToString()
+        public string ToString(Dictionary<string, Material> materials)
         {
-            StringBuilder sb = new StringBuilder;
+            StringBuilder sb = new StringBuilder();
             sb.AppendLine(locDesc);
             sb.AppendLine("QuantityUnits: " + QtyUnits);
+            sb.AppendLine("Unit of Measurement: " + materials[MaterialId.ToString()].UnitOfMeasurement);
             sb.AppendLine("Quantity: " + Quantity);
             sb.AppendLine("Total Units: " + TotalUnits());
-            sb.AppendLine("Total Units: " + Price());
-            return base.ToString();
+            sb.AppendLine("Price: " + Price(materials));
+            return sb.ToString();
         }
     }
 }
