@@ -9,6 +9,7 @@ namespace CostEstimator
         public int MaterialId { get; set; }
         public double QtyUnits { get; set; }
         public int Quantity { get; set; }
+        public double Price { get; set; }
 
         public double TotalUnits() => QtyUnits * Quantity;
 
@@ -41,10 +42,15 @@ namespace CostEstimator
             }
         }
 
-        public double Price(Dictionary<string, Material> materials)
+        public double GetPrice(Dictionary<string, Material> materials)
         {
             double value = QtyPricingUnits(materials) * materials[MaterialId.ToString()].PricePerUnit;
             return System.Math.Truncate(100 * value) / 100;
+        }
+
+        public void SetPrice(Dictionary<string, Material> materials)
+        {
+            Price = GetPrice(materials);
         }
 
         public string ToString(Dictionary<string, Material> materials)
@@ -55,7 +61,7 @@ namespace CostEstimator
             sb.AppendLine("Unit of Measurement: " + materials[MaterialId.ToString()].UnitOfMeasurement);
             sb.AppendLine("Quantity: " + Quantity);
             sb.AppendLine("Total Units: " + TotalUnits());
-            sb.AppendLine("Price: " + Price(materials));
+            sb.AppendLine("Price: " + GetPrice(materials));
             return sb.ToString();
         }
     }
