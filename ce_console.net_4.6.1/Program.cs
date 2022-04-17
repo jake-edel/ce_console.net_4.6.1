@@ -1,8 +1,6 @@
-﻿using System;
-using System.IO;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 
 namespace CostEstimator
 {
@@ -21,13 +19,12 @@ namespace CostEstimator
 
             TowerCalculator tc = new TowerCalculator(flights, materials);
 
-            var flt = tc.SelectFlight(0);
+            tc.SetFlightPrices();
 
-            tc.SumFlight(flt);
+            var towerString = JsonConvert.SerializeObject(flights);
+            File.WriteAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/output/tower_price_output.json", towerString);
 
 
-
-            Console.ReadLine();
         }
     }
 }
