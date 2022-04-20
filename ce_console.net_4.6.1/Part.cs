@@ -10,6 +10,7 @@ namespace CostEstimator
         public double QtyUnits { get; set; }
         public int Quantity { get; set; }
         public double Price { get; set; }
+        public string UnitOfMeasurement { get; set; }
 
         public double TotalUnits() => QtyUnits * Quantity;
 
@@ -51,17 +52,19 @@ namespace CostEstimator
         public void SetPrice(Dictionary<string, Material> materials)
         {
             Price = GetPrice(materials);
+            UnitOfMeasurement = materials[MaterialId.ToString()].UnitOfMeasurement;
+
         }
 
-        public string ToString(Dictionary<string, Material> materials)
+        public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(locDesc);
             sb.AppendLine("QuantityUnits: " + QtyUnits);
-            sb.AppendLine("Unit of Measurement: " + materials[MaterialId.ToString()].UnitOfMeasurement);
+            sb.AppendLine("Unit of Measurement: " + UnitOfMeasurement);
             sb.AppendLine("Quantity: " + Quantity);
             sb.AppendLine("Total Units: " + TotalUnits());
-            sb.AppendLine("Price: " + GetPrice(materials));
+            sb.AppendLine("Price: " + Price);
             return sb.ToString();
         }
     }
