@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace CostEstimator
 {
@@ -34,6 +35,29 @@ namespace CostEstimator
 
                 }
             }
+        }
+
+        public double TallyFlightBom(Flight flight)
+        {
+            double totalPrice = 0;
+
+            foreach (Part part in flight.Stairs)
+            {
+                totalPrice += part.Price;
+            }
+
+            foreach (Part part in flight.Landing)
+            {
+                totalPrice += part.Price;
+            }
+
+            foreach (Part part in flight.Railing)
+            {
+                totalPrice += part.Price;
+            }
+
+            Console.WriteLine("Total Price of Flight #" + flight.FlightId + ": " + totalPrice + "\n");
+            return totalPrice;
         }
     }
 }
