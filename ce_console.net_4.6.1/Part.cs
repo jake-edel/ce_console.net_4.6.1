@@ -37,7 +37,8 @@ namespace CostEstimator
             else if ((materials[MaterialId.ToString()].UnitOfMeasurement == "ft"))
             {
                 return LengthFt();
-            } else
+            } 
+            else
             {
                 return 0;
             }
