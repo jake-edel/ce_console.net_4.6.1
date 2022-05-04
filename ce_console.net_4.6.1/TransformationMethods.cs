@@ -37,7 +37,6 @@ namespace CostMethods
         public static int PicketQuantity(int run)
         {
             int value = run / 4;
-
             return value;
         }
 
