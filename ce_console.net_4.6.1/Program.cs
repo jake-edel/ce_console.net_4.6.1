@@ -10,7 +10,8 @@ namespace CostEstimator
     {
         public static void Main(string[] args)
         {
-            string config = File.ReadAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/data/stair_configuration.json");
+            string configFilePath = "/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/data/stair_configuration.json";
+            string config = File.ReadAllText(configFilePath);
             Transformation.TransformConfig(config);
 
             string materialsJson = File.ReadAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/data/materials.json");
@@ -23,18 +24,10 @@ namespace CostEstimator
 
             tc.SetFlightPrices();
 
-            double totalPrice = 0;
-
-            foreach (Flight flight in flights["flights"])
-            {
-                totalPrice += tc.TallyFlightBom(flight);
-            }
-
-            Console.WriteLine("Total Cost of Stair Tower: " + totalPrice);
+            tc.PrintFlightPrices();
 
             var towerString = JsonConvert.SerializeObject(flights);
             File.WriteAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/output/tower_price_output.json", towerString);
-
 
             Console.ReadLine();
         }

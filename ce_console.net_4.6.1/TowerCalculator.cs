@@ -37,7 +37,21 @@ namespace CostEstimator
             }
         }
 
-        public double TallyFlightBom(Flight flight)
+        public void PrintFlightPrices()
+        {
+            double totalPrice = 0;
+
+            foreach (Flight flight in Flights["flights"])
+            {
+                totalPrice += TallyFlight(flight);
+            }
+
+
+            Console.WriteLine("Total Cost of Stair Tower: " + totalPrice);
+
+        }
+
+        public double TallyFlight(Flight flight)
         {
             double totalPrice = 0;
 
