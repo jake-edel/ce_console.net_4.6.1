@@ -60,7 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CostHelper.cs" />
+    <Compile Include="TransformationMethods.cs" />
     <Compile Include="Flight.cs" />
     <Compile Include="TowerCalculator.cs" />
     <Compile Include="material.cs" />
