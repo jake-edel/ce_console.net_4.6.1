@@ -12,6 +12,7 @@
       "landingWidth": "#currentvalueatpath($.landingWidth)",
       "landingArea": "#multiply(#subtract(#currentvalueatpath($.landingWidth),  2.25), #currentvalueatpath($.landingLength))",
       "supportChannelLength": "#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5)",
+      "supportAngleLength": "#subtract(#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5), 4.5)",
       "supportStudQuantity": "#CostMethods.FlightSolver::SupportStudQuantity(#currentvalueatpath($.landingWidth))",
       "midPanCount": "#subtract(#currentvalueatpath($.risers), 1)",
       // STAIRS
