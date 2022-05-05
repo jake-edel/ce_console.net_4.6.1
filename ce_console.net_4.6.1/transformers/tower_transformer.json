@@ -54,7 +54,7 @@
         },
         {
           "materialId": 6,
-          "qtyUnits": "#subtract(#subtract(#subtract(#currentvalueatpath($.landingWidth), 2.25), 4.5), 4.5)",
+          "qtyUnits": "#currentvalueatpath($.supportAngleLength)",
           "quantity": 2,
           "locDesc": "supportAngle"
         },
