@@ -22,10 +22,6 @@ namespace CostEstimator
 
             TowerCalculator tc = new TowerCalculator(flights, materials);
 
-            tc.SetFlightPrices();
-
-            tc.PrintFlightPrices();
-
             var towerString = JsonConvert.SerializeObject(flights);
             File.WriteAllText("/Projects/ce_console.net_4.6.1/ce_console.net_4.6.1/output/tower_price_output.json", towerString);
 

@@ -13,6 +13,10 @@ namespace CostEstimator
             Materials = materials;
             Flights = flights;
 
+            SetFlightPrices();
+
+            PrintFlightPrices();
+
         }
 
         public void SetFlightPrices()
