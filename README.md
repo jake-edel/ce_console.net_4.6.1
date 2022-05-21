@@ -1,6 +1,9 @@
 # Stair Tower Cost Estimator
 
 ## A program to estimate material cost of a stair tower by reading tower/flight dimensions and calulating individual part dimensions/weights.
+
+![Screen Shot 2022-05-21 at 11 54 13 AM](https://user-images.githubusercontent.com/79817178/169663580-27d2809e-9935-43f2-be63-839e09af5b2f.png)
+
 ___
 
 The program reads a stair configuration JSON as input and performs a series of transformations to create a bill of materials for each flight in the tower. Tranformations are located in the `ce_console.net_4.6.1/transformations` folder and performed using the [JUST.net](https://github.com/WorkMaze/JUST.net) library.
